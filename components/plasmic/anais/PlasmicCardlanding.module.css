@@ -1,0 +1,58 @@
+.root {
+  display: flex;
+  width: 333px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 4px 4px 2px #cdc5c53b;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  padding: 5px 0px;
+  border-width: 1px;
+}
+.box___09LDw {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 173px;
+  overflow: hidden;
+  min-width: 0;
+  flex-shrink: 0;
+  background: url("/plasmic/anais/images/photo1608656600560C99B9E7A0De5Jpg.jpeg") left 4px top -7px / cover;
+}
+.box__pm4Gb {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: auto;
+}
+.slotSlot {
+  font-size: 22px;
+}
+.box__isyZ {
+  position: relative;
+  left: auto;
+  top: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px 10px 10px;
+}
+.slotSlot2 {
+  font-size: 16px;
+  color: #5353539e;
+  text-align: left;
+}
+.box___9V7Vy {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: 5px;
+  text-decoration-line: underline;
+  color: #ab9966;
+  min-width: 0;
+}

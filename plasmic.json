@@ -1,0 +1,269 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+      "projectName": "anais",
+      "version": "latest",
+      "cssFilePath": "plasmic/anais/plasmic_anais.module.css",
+      "components": [
+        {
+          "id": "_I5OjG_uQyxs",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "1p5fdh61qH",
+          "name": "Cardlanding",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicCardlanding.jsx",
+          "importSpec": {
+            "modulePath": "Cardlanding.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicCardlanding.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oABxe4ux2c",
+          "name": "TeamMemberCard",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicTeamMemberCard.jsx",
+          "importSpec": {
+            "modulePath": "TeamMemberCard.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicTeamMemberCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bUJeyBWdrf",
+          "name": "MoreButton",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicMoreButton.jsx",
+          "importSpec": {
+            "modulePath": "MoreButton.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicMoreButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "yCIRZbQvnh",
+          "name": "MenuItem",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicMenuItem.jsx",
+          "importSpec": {
+            "modulePath": "MenuItem.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicMenuItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-siGeKZerak",
+          "name": "NavBar",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicNavBar.jsx",
+          "importSpec": {
+            "modulePath": "NavBar.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Oyi9iDfv3d",
+          "name": "MobileMenuIcon",
+          "type": "managed",
+          "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+          "renderModuleFilePath": "plasmic/anais/PlasmicMobileMenuIcon.jsx",
+          "importSpec": {
+            "modulePath": "MobileMenuIcon.jsx"
+          },
+          "cssFilePath": "plasmic/anais/PlasmicMobileMenuIcon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "-ahFsFddXQ",
+          "name": "HanbMenusvg2Icon",
+          "moduleFilePath": "plasmic/anais/icons/PlasmicIcon__HanbMenusvg2.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "I5wDl1qne",
+          "name": "nina-mercado-CnrDuY0tFrg-unsplash.jpg",
+          "filePath": "../public/plasmic/anais/images/ninaMercadoCnrDuY0TFrgUnsplashjpg.jpeg"
+        },
+        {
+          "id": "eZah2cmyn",
+          "name": "images.jpg",
+          "filePath": "../public/plasmic/anais/images/imagesjpg.jpeg"
+        },
+        {
+          "id": "ZC8QWy_Zi",
+          "name": "images-removebg-preview.png",
+          "filePath": "../public/plasmic/anais/images/imagesRemovebgPreviewpng.png"
+        },
+        {
+          "id": "1SXiU5bF7",
+          "name": "shopping-cart.png",
+          "filePath": "../public/plasmic/anais/images/shoppingCartpng.png"
+        },
+        {
+          "id": "uKM48n3lx",
+          "name": "photo-1604173552214-3464d9175fa0.jpg",
+          "filePath": "../public/plasmic/anais/images/photo16041735522143464D9175Fa0Jpg.jpeg"
+        },
+        {
+          "id": "qd5XPKha1",
+          "name": "photo-1608656600560-c99b9e7a0de5.jpg",
+          "filePath": "../public/plasmic/anais/images/photo1608656600560C99B9E7A0De5Jpg.jpeg"
+        },
+        {
+          "id": "99qTQZ7zU",
+          "name": "ekaterina-shevchenko-ZLTlHeKbh04-unsplash.jpg",
+          "filePath": "../public/plasmic/anais/images/ekaterinaShevchenkoZlTlHeKbh04Unsplashjpg.jpeg"
+        },
+        {
+          "id": "l_2GyJXSm",
+          "name": "jess-bailey-f94JPVrDbnY-unsplash.jpg",
+          "filePath": "../public/plasmic/anais/images/jessBaileyF94JpVrDbnYUnsplashjpg.jpeg"
+        },
+        {
+          "id": "jUzoMixp9",
+          "name": "amy-shamblen-M-dLdqCVfAY-unsplash.jpg",
+          "filePath": "../public/plasmic/anais/images/amyShamblenMDLdqCVfAyUnsplashjpg.jpeg"
+        },
+        {
+          "id": "LjVME0IBY",
+          "name": "tamanna-rumee-5n2XtbvekO8-unsplash.jpg",
+          "filePath": "../public/plasmic/anais/images/tamannaRumee5N2XtbvekO8Unsplashjpg.jpeg"
+        },
+        {
+          "id": "PXKjY4Ijz",
+          "name": "diana-polekhina-YVI7gzcDWvw-unsplash.jpg",
+          "filePath": "../public/plasmic/anais/images/dianaPolekhinaYvi7GzcDWvwUnsplashjpg.jpeg"
+        },
+        {
+          "id": "vlNImSkK7",
+          "name": "test.jpg",
+          "filePath": "../public/plasmic/anais/images/testjpg.jpeg"
+        },
+        {
+          "id": "nc1yRop0L",
+          "name": "183298319_3871191382997065_2630820817669899304_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_18329831938711913829970652630820817669899304Njpg.jpeg"
+        },
+        {
+          "id": "NI0t8fVY2",
+          "name": "158484621_3699843136798558_8478540649823775615_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_15848462136998431367985588478540649823775615Njpg.jpeg"
+        },
+        {
+          "id": "PdR0s43fc",
+          "name": "confisseriepremium.jpg",
+          "filePath": "../public/plasmic/anais/images/confisseriepremiumjpg.jpeg"
+        },
+        {
+          "id": "E6ctTMScG",
+          "name": "149531170_3631698986946307_5300001405183192311_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_14953117036316989869463075300001405183192311Njpg.jpeg"
+        },
+        {
+          "id": "_dw26uFeJ",
+          "name": "chocdec.jpg",
+          "filePath": "../public/plasmic/anais/images/chocdecjpg.jpeg"
+        },
+        {
+          "id": "sYfD5Tcq_",
+          "name": "149583070_3635485096567696_5701336500657946325_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_14958307036354850965676965701336500657946325Njpg.jpeg"
+        },
+        {
+          "id": "OH-vdnzjC",
+          "name": "152213682_3657006341082238_8780045188174324182_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_15221368236570063410822388780045188174324182Njpg.jpeg"
+        },
+        {
+          "id": "b71JLqKKq",
+          "name": "151784273_3657006204415585_8267926866914361805_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_15178427336570062044155858267926866914361805Njpg.jpeg"
+        },
+        {
+          "id": "yKWkE0_Fi",
+          "name": "151754230_3657006104415595_6425191485165780788_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_15175423036570061044155956425191485165780788Njpg.jpeg"
+        },
+        {
+          "id": "YXIAdLH1o",
+          "name": "152406969_3657006277748911_1945654795989093251_n.jpg",
+          "filePath": "../public/plasmic/anais/images/_15240696936570062777489111945654795989093251Njpg.jpeg"
+        },
+        {
+          "id": "uyQQbrgCVb",
+          "name": "hanbMenu.svg",
+          "filePath": "../public/plasmic/anais/images/hanbMenusvg.svg"
+        },
+        {
+          "id": "2dVhgOn4X",
+          "name": "images-removebg-preview.png 2",
+          "filePath": "../public/plasmic/anais/images/imagesRemovebgPreviewpng2.png"
+        }
+      ],
+      "projectApiToken": "ORaFVOTvJW8pPAydEnsufOfWCb8L32PVwNYkQlHGaMyQjMvVJgwlHWnofWsSPFAuNHXHlVB2Bzk5DuRkyqRQ"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "kRUbIpMZpFGh",
+        "name": "Screen",
+        "projectId": "pTPBBsFpDxNXZWEGB1hTFr",
+        "contextFilePath": "plasmic/anais/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.149",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.149/dist/plasmic.schema.json"
+}

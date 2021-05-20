@@ -1,0 +1,74 @@
+.root {
+  display: block;
+  box-shadow: 2px 4px 4px 2px #cdc5c53b;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 208px;
+  overflow: hidden;
+  position: relative;
+  min-width: 0;
+  border-radius: 15%;
+  padding: 5px 0px;
+  border-width: 1px;
+}
+@media (max-width: 640px) {
+  .root {
+    height: 257px;
+    border-radius: 7%;
+  }
+}
+.box__epQhj {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+@media (max-width: 640px) {
+  .box__epQhj {
+    background: url("https://studio.plasmic.app/static/img/placeholder.png");
+  }
+}
+.img__u19De {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__gqXx {
+  position: absolute;
+  left: 0px;
+  top: auto;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 15px;
+  background: #8e8e8d4a;
+}
+@media (max-width: 640px) {
+  .box__gqXx {
+    height: 83px;
+  }
+}
+.slotChildren {
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .slotChildren {
+    font-size: 22px;
+  }
+}

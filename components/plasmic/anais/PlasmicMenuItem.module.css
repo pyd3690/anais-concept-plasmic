@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.root:hover {
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .slotSlot2 {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+.root:hover .slotSlot2 {
+  color: #a2a23d /* plasmic-token: nnUiyEEIr */;
+}
+.root:active .slotSlot2 {
+  color: #fffffd;
+}

@@ -1,0 +1,17 @@
+.root {
+  text-align: center;
+  text-decoration-line: none;
+  width: 105px;
+  color: #ffffff;
+  position: relative;
+  font-style: normal;
+  border-radius: 5px;
+  padding: 5px;
+  background: #b7aa78;
+}
+.root:hover {
+  background: #93885d;
+}
+.root:active {
+  background: #cebf85;
+}
